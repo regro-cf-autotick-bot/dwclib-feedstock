@@ -1,5 +1,5 @@
 {% set name = "dwclib" %}
-{% set version = "2022.3.22" %}
+{% set version = "2022.6.23" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 41e5dc52511e2f3591866699796f0d43aad1ee37b176cae5034b4ec30c99d6ac
+  sha256: c6d86816d3db88e8910dc3fbe5743a00d87980a802420a0eaf1f5746edb79f25
 
 build:
   noarch: python
@@ -38,7 +38,7 @@ test:
 
 about:
   home: https://framagit.org/jaj/dwclib
-  summary: 'Python wrapper to DataWarehouse Connect'
+  summary: Python wrapper to DataWarehouse Connect
   description: |
     dwclib is a Python library which enables queries against Philips
     DataWarehouse Connect databases in a simple and fast manner.
