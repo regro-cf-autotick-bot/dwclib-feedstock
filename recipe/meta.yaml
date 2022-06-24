@@ -1,5 +1,5 @@
 {% set name = "dwclib" %}
-{% set version = "2022.6.24" %}
+{% set version = "2022.6.25" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e95e42495d3ef0580101ebf78ea5c63f2f736e902548232c0b0b5a05ddbdbbbf
+  sha256: d41405a58aba609c4021954247e37e13d375eb6b13296899b6f88294f50a67e2
 
 build:
   noarch: python
@@ -17,10 +17,11 @@ build:
 requirements:
   build:
   host:
-    - python =3.8
+    - python >=3.8,<3.11
     - pip
     - poetry >=0.12
   run:
+    - python >=3.8,<3.11
     - pandas =1.4
     - numba =0.55.2
     - dask =2022.5.0
