@@ -1,7 +1,7 @@
 About dwclib
 ============
 
-Home: https://framagit.org/jaj/dwclib
+Home: https://github.com/larib-data/dwclib
 
 Package license: ISC
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dwclib-feedstoc
 
 Summary: Python wrapper to DataWarehouse Connect
 
-Development: https://framagit.org/jaj/dwclib
+Development: https://github.com/larib-data/dwclib
 
 dwclib is a Python library which enables queries against Philips
 DataWarehouse Connect databases in a simple and fast manner.

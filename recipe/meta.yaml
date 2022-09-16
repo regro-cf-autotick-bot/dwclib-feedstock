@@ -24,7 +24,7 @@ requirements:
     - python >=3.8,<3.11
     - pandas =1.4
     - numba =0.55.2
-    - dask =2022.5.0
+    - dask =2022.9.0
     - sqlalchemy =1.4
     - pyodbc =4.0.32
     - psycopg2 =2.9.3
@@ -38,7 +38,7 @@ test:
     - pip check
 
 about:
-  home: https://framagit.org/jaj/dwclib
+  home: https://github.com/larib-data/dwclib
   summary: Python wrapper to DataWarehouse Connect
   description: |
     dwclib is a Python library which enables queries against Philips
@@ -48,7 +48,7 @@ about:
     Waveform queries are accelerated with the numba JIT compiler.
   license: ISC
   license_file: LICENSE
-  dev_url: https://framagit.org/jaj/dwclib
+  dev_url: https://github.com/larib-data/dwclib
 
 extra:
   recipe-maintainers:
