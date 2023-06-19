@@ -27,6 +27,7 @@ requirements:
     - sqlalchemy =1.4
     - pyodbc =4.0.39
     - psycopg2 =2.9.3
+    - platformdirs >=3.0
 
 test:
   imports:
