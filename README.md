@@ -1,11 +1,11 @@
-About dwclib
-============
+About dwclib-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dwclib-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/larib-data/dwclib
 
 Package license: ISC
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dwclib-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python wrapper to DataWarehouse Connect
 
