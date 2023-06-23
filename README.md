@@ -1,11 +1,11 @@
-About dwclib
-============
+About dwclib-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dwclib-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/larib-data/dwclib
 
 Package license: ISC
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dwclib-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python wrapper to DataWarehouse Connect
 
@@ -15,7 +15,6 @@ dwclib is a Python library which enables queries against Philips
 DataWarehouse Connect databases in a simple and fast manner.
 Numerics and Waveform data can be queried and is returned as pandas
 dataframes. Optional dask support is included in the library.
-Waveform queries are accelerated with the numba JIT compiler.
 
 
 Current build status
