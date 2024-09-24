@@ -1,5 +1,5 @@
 {% set name = "dwclib" %}
-{% set version = "2024.5.10" %}
+{% set version = "2024.9.17" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5e885c9e5b25b757aadf501035b4beca6b5c98c74fb4fd1ad77729e965093d3b
+  sha256: eebf38ff08e320548028b4eb460d7158013c8c67a433d71e1bd045cdafe5c360
 
 build:
   noarch: python
@@ -21,15 +21,15 @@ requirements:
     - pip
     - poetry >=0.12
   run:
-    - python >=3.9,<4
-    - numpy >=1,<2
+    - numpy >=2,<3
     - pandas >=2,<3
-    - pyarrow >=14
     - dask >=2024
-    - sqlalchemy >=2,<3
-    - pyodbc =5.1.0
-    - psycopg2 >=2.9.9
     - platformdirs >=3,<4
+    - psycopg2 >=2.9.9
+    - pyarrow >=14
+    - python >=3.9,<4
+    - sqlalchemy >=2,<3
+    - pymssql >=2.3,<3
 
 test:
   imports:
