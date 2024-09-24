@@ -19,6 +19,7 @@ requirements:
   host:
     - python >=3.9,<4
     - pip
+    - setuptools
     - poetry >=0.12
   run:
     - numpy >=2,<3
