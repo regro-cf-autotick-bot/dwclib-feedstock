@@ -1,13 +1,13 @@
 {% set name = "dwclib" %}
-{% set version = "2024.9.17" %}
+{% set version = "2024.12.10" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: eebf38ff08e320548028b4eb460d7158013c8c67a433d71e1bd045cdafe5c360
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 37a46d59e3f66d20b2e4f05634f40ec60acf3a10c359c0b478d618eb65a42e0b
 
 build:
   noarch: python
